@@ -1,6 +1,6 @@
 # Red_list_criterion
 
-Code associated with the paper "Modelling the probability of meeting IUCN Red List criteria to support reassessments"
+Code and metadata associated with the paper "Modelling the probability of meeting IUCN Red List criteria to support reassessments"
 
 Codes 00 and 01 compile all the extinction predictors from the different datasets. 
 Although these are not included in the repository, references providing access to all the different raw dataset are available in the corresponding codes and in the paper. 
