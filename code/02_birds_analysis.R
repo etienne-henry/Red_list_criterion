@@ -30,6 +30,27 @@ source("code/02_function_analysis.R")
 # Birds predictors of extinction dataframe
 
 birds.predict <- read.table("dataset/birds/processed_data/birds_ER_predictors_range_noAUTO.csv")
+birds.predict <- c("sci_nam","RL_cat",
+                   "A1","A2","A3","A4",
+                   "B1","B2",
+                   "C1","C2",
+                   "D1","D2",
+                   "mig_BL","gen_len","endemic","forest_dep",
+                   "gen_len_log","family","range_km2","range_km2_log",
+                   "habitats_b","beak_len","hwi","body_mass","trophic_niche",
+                   "beak_len_log","body_mass_log","LogClutchSize","IslandDwelling","nocturnal",
+                   "canopy_density_Q10","canopy_density_med","canopy_density_Q90",
+                   "canopy_change_med","canopy_density_med_log","canopy_change_med_log",
+                   "crop_change_Q10","crop_change_med","crop_change_Q90","crop_change_gmean",
+                   "crop_cover_Q10","crop_cover_med","crop_cover_Q90","crop_cover_gmean",
+                   "crop_change_med_log","crop_change_gmean_log","crop_cover_med_log","crop_cover_gmean_log",
+                   "gdp_med","gdp_med_log","p15_Q10","p15_med",
+                   "p15_Q90","p15_gmean","var_pop_Q10","var_pop_med",
+                   "var_pop_Q90","var_pop_gmean","p15_med_log","p15_gmean_log",
+                   "var_pop_med_log","var_pop_gmean_log","prop_rural","prop_rural_log",
+                   "cities_Q10","cities_med","cities_Q90","cities_gmean",
+                   "cities_med_log","cities_gmean_log","Temp_change_med","Ppt_change_med",
+                   "Temp_change_gmean","Ppt_change_gmean")
 
 # Filter for marine species 
 
