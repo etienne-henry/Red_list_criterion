@@ -10,7 +10,8 @@ The table includes the following columns:
  	- A2: category met under criterion A2 in the last published assessment.
 	- A2_predicted : category that our criterion-specific model predicted for the criterion A2.
 	- A3: category met under criterion A3 in the last published assessment.
-	- A3_predicted : category that our criterion-specific model predicted for the criterion A3.	- A4: category met under criterion A4 in the last published assessment.
+	- A3_predicted : category that our criterion-specific model predicted for the criterion A3.	
+ 	- A4: category met under criterion A4 in the last published assessment.
 	- A4_predicted : category that our criterion-specific model predicted for the criterion A4.
 	- B1: category met under criterion B1 in the last published assessment.
 	- B1_predicted : category that our criterion-specific model predicted for the criterion B1.
@@ -21,7 +22,8 @@ The table includes the following columns:
 	- C2: category met under criterion C2 in the last published assessment.
 	- C2_predicted : category that our criterion-specific model predicted for the criterion C2.a
 	- D1: category met under criterion D1 in the last published assessment.
-	- D1_predicted : category that our criterion-specific model predicted for the criterion D1.	- D2: category met under criterion D2 in the last published assessment.
+	- D1_predicted : category that our criterion-specific model predicted for the criterion D1.	
+	- D2: category met under criterion D2 in the last published assessment.
 	- D2_predicted : category that our criterion-specific model predicted for the criterion D2.
 	- Criterion_spe_combined: final category based on the highest predicted extinction risk among each criterion-specific model (i.e., threatened if at least one of the criteria was predicted to be triggered) as done during Red List assessments. 
 
