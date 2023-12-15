@@ -7,3 +7,5 @@ Although these are not included in the repository, references providing access t
 The dataframe data/birds_ER_predictors_range_noAUTO.csv compile all the predictors of extinction and the Red List category of all the birds used for the analysis. 
 
 Code 02_birds_analysis.R call the script 02_function_analysis.R and executes the analysis to recreate the results.
+
+Version of the code available in this repository have been archived on Zenodo:
