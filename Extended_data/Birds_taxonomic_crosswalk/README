@@ -1,0 +1,13 @@
+Using different databases requires correcting taxonomic mismatches. 
+To do so, we aligned all taxonomies with Birdlife's. 
+
+In particular: 
+
+- The AVONET 2022 database of bird traits was manually aligned to the BL taxonomy, excluding species absent from Birdlife or without range maps (14 in total, see Avonet2022_BirdLife_taxo_crosswalk.csv for details). 
+
+- Behavioral traits were extracted from Tobias & Pigot 2019. To match the BL taxonomy, we first used the taxonomic crosswalk between Jetz (BirdTree) and BL (see Jetz_Birdlife_crosswalk.csv), and then manually corrected for mismatches.  
+Similarly, we did not include Tobias & Pigot's species considered "extinct" by BL and whose range is absent or classified as "possibly extinct », "possibly extant » or « extant (non-breeding) » (20 in total, see TobiasPigot2019_Birdlife_crosswalk.csv).
+
+- Finally, nocturnality was extracted from Wilman et al. 2014. To match the taxonomy of the BL, we first used the taxonomic concordance table between Jetz (BirdTree) and the BL (see Jetz_Birdlife_crosswalk.csv), and then manually corrected for inconsistencies.  
+Similarly, we did not include Wilman species considered "extinct" by BL and whose range is absent or classified as "possibly extinct », "possibly extant » or « extant (non-breeding) » (46 in total, see see Wilman2014_Birdlife_crosswalk.csv).
+
