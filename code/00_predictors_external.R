@@ -30,7 +30,7 @@ library(readxl)
 
 # Raw distribution maps
 
-distributions <- st_read(dsn = "birdlife/BOTW/BOTW.gdb/a00000009.gdbtable")
+distributions <- st_read(dsn = "dataset/birds/birdlife/BOTW/BOTW.gdb/a00000009.gdbtable")
 #' source BirdLife International and Handbook of the Birds of the World (2021). Data from: Bird species distribution maps of the world. Version 2021.1
 #' Available at http://datazone.birdlife.org/species/requestdis.
 
