@@ -6,4 +6,4 @@ Codes 00 and 01 compile all the extinction predictors from the different dataset
 Although these are not included in the repository, references providing access to all the different raw dataset are available in the corresponding codes and in the paper. 
 The dataframe data/birds_ER_predictors_range_noAUTO.csv compile all the predictors of extinction and the Red List category of all the birds used for the analysis. 
 
-Code 02_birds_analysis.R executes the analysis. It will call all the other 02_function_analysis scripts to recreate the results.
+Code 02_birds_analysis.R call the script 02_function_analysis.R and executes the analysis to recreate the results.
