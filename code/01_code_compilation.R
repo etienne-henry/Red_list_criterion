@@ -304,8 +304,8 @@ bird.iucn$canopy_change_med_log <- sign(bird.iucn$canopy_change_med)*log(abs(bir
 #' expansion in the twenty-first century. Nat Food 3, 19–
 #' \doi{10.1038/s43016-021-00429-z}
 
-cropland <- read.table("dataset/external_factors/cropland_Potapov2021/crop_cover_change_Q10_med_Q90.csv")
-cropland.gmean <- read.table("dataset/external_factors/cropland_Potapov2021/crop_cover_change_geom_mean.csv")
+cropland <- read.table("dataset/external_factors/cropland_Potapov2022/crop_cover_change_Q10_med_Q90.csv")
+cropland.gmean <- read.table("dataset/external_factors/cropland_Potapov2022/crop_cover_change_geom_mean.csv")
 
 bird.iucn$crop_change_Q10 <- cropland$crop_change_Q10[match(bird.iucn$sci_nam, cropland$sci_nam)]
 bird.iucn$crop_change_med <- cropland$crop_change_med[match(bird.iucn$sci_nam, cropland$sci_nam)]
