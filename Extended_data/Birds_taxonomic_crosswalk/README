@@ -1,5 +1,6 @@
 Using different databases requires correcting taxonomic mismatches. 
 To do so, we aligned all taxonomies with Birdlife's. 
+See script code/00_function_taxo_crosswalk.R
 
 In particular: 
 
