@@ -9,3 +9,6 @@ The dataframe data/birds_ER_predictors_range_noAUTO.csv compile all the predicto
 Code 02_birds_analysis.R call the script 02_function_analysis.R and executes the analysis to recreate the results.
 
 Version of the code available in this repository have been archived on Zenodo:
+
+[![DOI](https://zenodo.org/badge/731970316.svg)](https://zenodo.org/doi/10.5281/zenodo.10392980)
+
