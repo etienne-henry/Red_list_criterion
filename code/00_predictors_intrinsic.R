@@ -22,7 +22,7 @@ source("code/00_function_taxo_crosswalk.R")
 # Taxonomic crosswalk table between BirdTree (Jetz) and Birdlife taxonomy
 
 
-corres.taxo <- read.csv("dataset/birds/traits_data_birds/Jetz_BirdLife_crosswalk.csv")
+corres.taxo <- read.csv("Extended_data/Birds_taxonomic_crosswalk/Jetz_BirdLife_crosswalk.csv")
 names(corres.taxo) <- c("BL_name","J_name","Match_type")
 
 # 1. Morphological traits: AVONET 2022 -------------------------------------------------------- 
