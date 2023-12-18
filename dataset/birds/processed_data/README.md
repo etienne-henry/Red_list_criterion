@@ -15,7 +15,7 @@ It is structured as follows:
   - "C2_category"
   - "D1_category"
   - "D2_category"
-  - "Migration_statut_BirdLife"
+  - "Migration_statut_BirdLife" \
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Generation_length_Birdlife"
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
