@@ -17,14 +17,14 @@ It is structured as follows:
   - "D2_category"
   - "Migration_statut_BirdLife" \
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
-  - "Generation_length_Birdlife" \
-This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
+  - "Generation_length_Bird_2020" \
+The latest versions of this data, is available on request from BirdLife International (science@birdlife.org). 
   - "Endemicity_Birdlife" \
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Forest_dependency_Birdlife" \
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
-  - "Log_generation_length_Birdlife" \
-This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
+  - "Log_generation_length_Bird_2020" \
+The latest versions of this data, is available on request from BirdLife International (science@birdlife.org). 
   - "Family"
   - "Range_km2" \
 The underlying data (ie species distribution map) are available from BirdLife International.
