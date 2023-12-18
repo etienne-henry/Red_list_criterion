@@ -16,14 +16,22 @@ It is structured as follows:
   - "D1_category"
   - "D2_category"
   - "Migration_statut_BirdLife"
+This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Generation_length_Birdlife"
+This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Endemicity_Birdlife"
+This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Forest_dependency_Birdlife"
+This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Log_generation_length_Birdlife"
+This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Family"
-  - "Range_km2" #Derived from BirdLife range maps
+  - "Range_km2" 
+The underlying data (ie species distribution map) are available from BirdLife International.
   - "Log_Range_km2"
+The underlying data (ie species distribution map) are available from BirdLife International.
   - "Habitats_breadth_Birdlife"
+The underlying data (ie habitats used and their importance for each species) are available from BirdLife International.
   - "Beak_lengths_Avonet_2022"
   - "HWI_Avonet_2022" #Hand-Wing Index
   - "Body_mass_Avonet_2022"
