@@ -83,7 +83,6 @@ bl.attributes <- read_excel("dataset/birds/BL_Species_Attributes_2021.xlsx")
 
 bl.traits <- bl.attributes %>% dplyr::select(sci_name=`Scientific name`,mig_BL=`Migratory status`,
                                          gen_len=`Generation length (years)`,endemic=`Endemic (breeds only in a single country)`,
-                                         alt_min=`Min altitude (m)` , alt_max=`Max altitude (m)`,
                                          range_size= `EOO breeding`, forest_dep=`Forest dependency`)
 
 # Save data
