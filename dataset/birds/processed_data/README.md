@@ -17,23 +17,23 @@ It is structured as follows:
   - "D2_category"
   - "Migration_statut_BirdLife" \
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
-  - "Generation_length_Birdlife"
+  - "Generation_length_Birdlife" \
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
-  - "Endemicity_Birdlife"
+  - "Endemicity_Birdlife"\
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
-  - "Forest_dependency_Birdlife"
+  - "Forest_dependency_Birdlife"\
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
-  - "Log_generation_length_Birdlife"
+  - "Log_generation_length_Birdlife"\
 This data, and the latest versions of it, is available on request from BirdLife International (science@birdlife.org). 
   - "Family"
-  - "Range_km2" 
+  - "Range_km2" \
 The underlying data (ie species distribution map) are available from BirdLife International.
-  - "Log_Range_km2"
+  - "Log_Range_km2"\
 The underlying data (ie species distribution map) are available from BirdLife International.
-  - "Habitats_breadth_Birdlife"
+  - "Habitats_breadth_Birdlife"\
 The underlying data (ie habitats used and their importance for each species) are available from BirdLife International.
   - "Beak_lengths_Avonet_2022"
-  - "HWI_Avonet_2022" #Hand-Wing Index
+  - "HWI_Avonet_2022" \ HWI = Hand-Wing Index
   - "Body_mass_Avonet_2022"
   - "Trophic_niche_Avonet_2022"
   - "Log_Beak_lengths_Avonet_2022"
@@ -41,16 +41,16 @@ The underlying data (ie habitats used and their importance for each species) are
   - "Log_ClutchSize_TobiasPigot_2019"
   - "Island_dwelling_TobiasPigot_2019"
   - "Nocturnal_Wilman2014"
-  - "Canopy_density_Q10_Remelgado_2023" #Q10 stands for 10% quantile
-  - "Canopy_density_med_Remelgado_2023" #med stands for median
-  - "Canopy_density_Q90_Remelgado_2023" #Q90 stands for 90% quantile
+  - "Canopy_density_Q10_Remelgado_2023" \Q10 stands for 10% quantile
+  - "Canopy_density_med_Remelgado_2023"\med stands for median
+  - "Canopy_density_Q90_Remelgado_2023" \Q90 stands for 90% quantile
   - "Canopy_change_Remelgado_2023"
   - "Canopy_density_med_log_Remelgado_2023"
   - "Canopy_change_med_log_Remelgado_2023"
   - "Crop_change_Q10_Potapov_2022"
   - "Crop_change_med_Potapov_2022"
   - "Crop_change_Q90_Potapov_2022"
-  - "Crop_change_gmean_Potapov_2022" #gmean stands for geometric mean
+  - "Crop_change_gmean_Potapov_2022" \gmean stands for geometric mean
   - "Crop_cover_Q10_Potapov_2022"
   - "Crop_cover_med_Potapov_2022"
   - "Crop_cover_Q90_Potapov_2022"
