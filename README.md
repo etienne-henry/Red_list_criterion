@@ -12,5 +12,6 @@ Code 02_birds_analysis.R calls the script 02_function_analysis.R and executes th
 
 Version of the code available in this repository have been archived on Zenodo:
 
-[![DOI](https://zenodo.org/badge/731970316.svg)](https://zenodo.org/doi/10.5281/zenodo.10392980)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10400819.svg)](https://doi.org/10.5281/zenodo.10400819)
+
 
