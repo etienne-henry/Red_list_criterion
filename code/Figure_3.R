@@ -81,7 +81,7 @@ estimate_neg <- df.crit.plot %>%
 quantile(estimate_neg$estimate, probs = seq(0, 1, 1/5))
 
 table(cut(estimate_neg$estimate, 
-          breaks = c(-3.70761082 -0.97411637 -0.46433357 -0.26870494 -0.14458973,-0.01)))
+          breaks = c(-3.70761082 -0.97411637 -0.46433357 -0.26870494 -0.14458973,0.0)))
 estimate_neg$cut_est <- cut(estimate_neg$estimate, 
                             breaks = c(-3.70661082,-0.97411637,-0.46433357,-0.26870494,-0.14458973,0))
 
@@ -92,8 +92,9 @@ df.crit.plot <- left_join(df.crit.plot, a)
 factor(df.crit.plot$cut_est)
 
 df.crit.plot$cut_est <- factor(df.crit.plot$cut_est, 
-      levels=c("(0,0.161]","(0.161,0.236]","(0.236,0.419]","(0.419,0.893]","(0.893,1.76]",
+      levels=c("(0.893,1.76]", "(0.419,0.893]", "(0.236,0.419]","(0.161,0.236]", "(0,0.161]",
                "(-0.145,0]","(-0.269,-0.145]","(-0.464,-0.269]", "(-0.974,-0.464]","(-3.71,-0.974]"))
+
 
 col <- c("#cc8d02","#FFB103","#ffc035","#ffd881","#ffefcc","#ccdaef","#99b5e0","#6690d1","#326bc2","#0047B3")
 
